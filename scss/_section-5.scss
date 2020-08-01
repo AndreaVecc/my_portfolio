@@ -1,0 +1,15 @@
+.s5 {
+    background-color: #ffffff;
+    text-align: center;
+
+    .row .left-section {
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        padding: 0;
+        margin: 0 0 5em 0;
+        h1 {
+            font-size: 10em;
+        }
+    }
+}

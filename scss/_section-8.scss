@@ -1,0 +1,39 @@
+.s8 {
+    .left-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .form {
+            margin-bottom: 3em;
+            padding: 4em 2em;
+            display: grid;
+            min-width: 30%;
+            border-radius: 15px;
+            background: #F7F7F7;
+            box-shadow:  50px 50px 49px #d2d2d2, 
+                        -50px -50px 49px #ffffff;
+
+            form .back-email {
+                border-radius: 7px;
+                background: #F7F7F7;
+                box-shadow:  20px 20px 60px #d2d2d2, 
+                            -20px -20px 60px #ffffff;
+                padding: .5em 1em;
+            }
+            h1 {
+                padding-bottom: 1.5em;
+            }
+        }
+        .social-link {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2em 2em;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}

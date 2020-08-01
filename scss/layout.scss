@@ -1,0 +1,40 @@
+@import '_navbar';
+@import '_variables';
+@import '_section-1';
+@import '_section-2';
+@import '_section-3';
+@import '_section-4';
+@import '_section-5';
+@import '_section-6';
+@import '_section-7';
+@import '_section-8';
+@import 'la-zeppola';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.row {
+    height: 100% !important;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.col-md {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+#fullpage {
+    height: 100%;
+}
