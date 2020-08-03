@@ -125,28 +125,52 @@ nav div div #lavori {
 
 .s2 {
   background-color: #ffffff;
-  z-index: 2;
 }
 
 .s2 div .left-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.s2 div .left-section .text-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
+.s2 div .left-section .img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  background: #F7F7F7;
+  -webkit-box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
+          box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+.s2 div .left-section .img img {
+  max-width: 100%;
+}
+
 .s2 div .left-section h1 {
   font-size: 9em;
   color: grey;
+  text-align: center;
 }
 
 .s2 div .left-section h1 #html {
@@ -168,39 +192,8 @@ nav div div #lavori {
   font-size: 1.3em;
 }
 
-.s2 div .right-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.s2 div .right-section div {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 15px;
-  background: #F7F7F7;
-  -webkit-box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
-          box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
-  -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
-}
-
-.s2 div .right-section div img {
-  max-width: 100%;
-}
-
 @media only screen and (max-width: 768px) {
-  .left-section {
+  .s2 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -210,41 +203,27 @@ nav div div #lavori {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
-  .left-section h1 {
-    font-size: 5.2em !important;
+  .s2 div .left-section .img {
+    border-radius: 19px;
+    background: #F7F7F7;
+    -webkit-box-shadow: 12px 12px 24px #b9b9b9,  -12px -12px 24px #ffffff;
+            box-shadow: 12px 12px 24px #b9b9b9,  -12px -12px 24px #ffffff;
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
   }
-  .left-section h1 #html {
+  .s2 div .left-section h1 {
+    font-size: 3.6em !important;
+  }
+  .s2 div .left-section h1 #html {
     color: #EB5E28;
   }
-  .left-section h1 #css {
+  .s2 div .left-section h1 #css {
     color: #2965F1;
-  }
-  .right-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .right-section div {
-    max-width: 100%;
-    margin-top: -200px;
-  }
-  .right-section div img {
-    max-width: 100%;
   }
 }
 
@@ -256,19 +235,28 @@ nav div div #lavori {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.s3 div .left-section .text-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.s3 div .left-section div {
+.s3 div .left-section .img {
   max-width: 100%;
   max-height: 100%;
   border-radius: 15px;
@@ -279,49 +267,30 @@ nav div div #lavori {
           transform: rotate(-2deg);
 }
 
-.s3 div .left-section div img {
+.s3 div .left-section .img img {
   max-width: 100%;
-  max-height: 100%;
 }
 
-.s3 div .right-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.s3 div .right-section h1 {
+.s3 div .left-section h1 {
   font-size: 9em;
+  color: grey;
   text-align: center;
+  color: #7952B3;
 }
 
-.s3 div .right-section h1 #sass {
-  color: #CF649A;
-}
-
-.s3 div .right-section ul {
+.s3 div .left-section ul {
   list-style-type: none;
   text-align: center;
   line-height: 45px;
   font-weight: 500;
 }
 
-.s3 div .right-section ul li {
+.s3 div .left-section ul li {
   font-size: 1.3em;
 }
 
 @media only screen and (max-width: 768px) {
-  .left-section {
+  .s3 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -331,41 +300,21 @@ nav div div #lavori {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
-  .left-section h1 {
-    font-size: 5.2em !important;
+  .s3 div .left-section .img {
+    border-radius: 19px;
+    background: #F7F7F7;
+    -webkit-box-shadow: 12px 12px 24px #b9b9b9,  -12px -12px 24px #ffffff;
+            box-shadow: 12px 12px 24px #b9b9b9,  -12px -12px 24px #ffffff;
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
   }
-  .left-section h1 #html {
-    color: #EB5E28;
-  }
-  .left-section h1 #css {
-    color: #2965F1;
-  }
-  .right-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .right-section div {
-    max-width: 100%;
-    margin-top: -200px;
-  }
-  .right-section div img {
-    max-width: 100%;
+  .s3 div .left-section h1 {
+    font-size: 3.6em !important;
   }
 }
 
@@ -377,24 +326,47 @@ nav div div #lavori {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.s4 div .left-section .text-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.s4 div .left-section h1 {
-  font-size: 9em;
+.s4 div .left-section .img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  background: #F7F7F7;
+  -webkit-box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
+          box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
-.s4 div .left-section h1 #bootstrap {
-  color: #7952B3;
+.s4 div .left-section .img img {
+  max-width: 100%;
+}
+
+.s4 div .left-section h1 {
+  font-size: 9em;
+  color: grey;
+  text-align: center;
+  color: #CF649A;
 }
 
 .s4 div .left-section ul {
@@ -408,40 +380,8 @@ nav div div #lavori {
   font-size: 1.3em;
 }
 
-.s4 div .right-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.s4 div .right-section div {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 15px;
-  background: #F7F7F7;
-  -webkit-box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
-          box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
-  -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
-}
-
-.s4 div .right-section div img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 @media only screen and (max-width: 768px) {
-  .left-section {
+  .s4 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -451,41 +391,22 @@ nav div div #lavori {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
-  .left-section h1 {
-    font-size: 5.2em !important;
+  .s4 div .left-section .img {
+    max-width: 70%;
+    border-radius: 19px;
+    background: #F7F7F7;
+    -webkit-box-shadow: 12px 12px 24px #b9b9b9,  -12px -12px 24px #ffffff;
+            box-shadow: 12px 12px 24px #b9b9b9,  -12px -12px 24px #ffffff;
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
   }
-  .left-section h1 #html {
-    color: #EB5E28;
-  }
-  .left-section h1 #css {
-    color: #2965F1;
-  }
-  .right-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .right-section div {
-    max-width: 100%;
-    margin-top: -200px;
-  }
-  .right-section div img {
-    max-width: 100%;
+  .s4 div .left-section h1 {
+    font-size: 3.6em !important;
   }
 }
 
@@ -540,7 +461,7 @@ nav div div #lavori {
   background: #F7F7F7;
   -webkit-box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
           box-shadow: 50px 50px 49px #d2d2d2,  -50px -50px 49px #ffffff;
-  padding: 0 2em;
+  padding: 1em 2em;
   min-height: 35%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -578,6 +499,10 @@ nav div div #lavori {
   min-height: 100%;
 }
 
+.s6 .left-section .centrato #img-zeppola {
+  max-width: 45%;
+}
+
 .s6 .left-section input {
   min-width: 20%;
   padding: 0 1em;
@@ -588,6 +513,24 @@ nav div div #lavori {
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   -webkit-box-shadow: 12px 12px 24px #dbdbdb,  -12px -12px 24px #ffffff;
           box-shadow: 12px 12px 24px #dbdbdb,  -12px -12px 24px #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .s6 .left-section {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .s6 .left-section h1 {
+    font-size: 8.5vw;
+  }
+  .s6 .left-section h2 {
+    font-size: 5vw;
+  }
+  .s6 .left-section .work {
+    max-width: 100%;
+  }
 }
 
 .s7 .center {
@@ -687,6 +630,22 @@ nav div div #lavori {
 .s8 .left-section .social-link img {
   width: 100px;
   height: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .s8 .left-section .form {
+    width: 100%;
+  }
+  .s8 .left-section .form form h3 {
+    font-size: 4.2vw;
+  }
+  .s8 .left-section .form form .back-email {
+    width: 100%;
+  }
+  .s8 .left-section .social-link img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 body {

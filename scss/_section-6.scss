@@ -19,7 +19,7 @@
             background: #F7F7F7;
             box-shadow:  50px 50px 49px #d2d2d2, 
                         -50px -50px 49px #ffffff;
-            padding: 0 2em;
+            padding: 1em 2em;
             min-height: 35%;
             display: flex;
             flex-direction: column;
@@ -35,6 +35,9 @@
                 max-width: 65%;
                 min-height: 100%;
             }
+            #img-zeppola {
+                max-width: 45%;
+            }
         }
         input {
             min-width: 20%;
@@ -46,6 +49,23 @@
             background: linear-gradient(145deg, #ffffff, #e6e6e6);
             box-shadow:  12px 12px 24px #dbdbdb, 
                         -12px -12px 24px #ffffff;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .s6 {
+        .left-section {
+            flex-direction: column !important;
+            h1 {
+                font-size: 8.5vw;
+            }
+            h2 {
+                font-size: 5vw;
+            }
+            .work {
+                max-width: 100%;
+            }
         }
     }
 }

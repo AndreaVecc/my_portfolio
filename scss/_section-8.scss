@@ -37,3 +37,27 @@
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .s8 {
+        .left-section {
+            .form {
+                width: 100%;
+                form {
+                    h3 {
+                        font-size: 4.2vw;
+                    }
+                    .back-email {
+                        width: 100%;
+                    }
+                }
+            }
+            .social-link {
+                img {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+}

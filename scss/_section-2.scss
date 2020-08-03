@@ -1,17 +1,32 @@
 .s2 {
     background-color: #ffffff;
-    z-index: 2;
-    
     div {
         .left-section {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
-            flex-direction: column;
+            flex-direction: row;
+            .text-left {
+                display: flex;
+                flex-direction: column;
+            }
+            .img {
+                max-width: 100%;
+                max-height: 100%;
+                border-radius: 15px;
+                background: #F7F7F7;
+                box-shadow:  50px 50px 49px #d2d2d2, 
+                            -50px -50px 49px #ffffff;
+                transform: rotate(2deg);
 
+                img {
+                    max-width: 100%;
+                }
+            }
             h1 {
                 font-size: 9em;
                 color: grey;
+                text-align: center;
                 #html {
                     color: #EB5E28;
                 }
@@ -19,36 +34,13 @@
                     color: #2965F1;
                 }
             }
-
             ul {
                 list-style-type: none;
                 text-align: center;
                 line-height: 45px;
                 font-weight: 500;
-
                 li {
                     font-size: 1.3em;
-                }
-            }
-        }
-
-        .right-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            div {
-                max-width: 100%;
-                max-height: 100%;
-                border-radius: 15px;
-                background: #F7F7F7;
-                box-shadow:  50px 50px 49px #d2d2d2, 
-                            -50px -50px 49px #ffffff;
-                transform: rotate(3deg);
-
-                img {
-                    max-width: 100%;
                 }
             }
         }
@@ -56,34 +48,29 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .left-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
-        h1 {
-            font-size: 5.2em !important;
-            #html {
-                color: #EB5E28;
-            }
-            #css {
-                color: #2965F1;
-            }
-        }
-    }
-
-    .right-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-
+    .s2 {
         div {
-            max-width: 100%;
-            margin-top: -200px;
-            img {
-                max-width: 100%;
+            .left-section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column !important;
+                .img {
+                    border-radius: 19px;
+                    background: #F7F7F7;
+                    box-shadow:  12px 12px 24px #b9b9b9, 
+                                -12px -12px 24px #ffffff;
+                    transform: rotate(0deg) !important;
+                }
+                h1 {
+                    font-size: 3.6em !important;
+                    #html {
+                        color: #EB5E28;
+                    }
+                    #css {
+                        color: #2965F1;
+                    }
+                }
             }
         }
     }
