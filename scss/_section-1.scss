@@ -1,51 +1,52 @@
-#first-section {
-    background-color: #ffffff;
+.s1 {
+    background: #f1f6fc;
+    #first-section {
+        .center-test {
+            justify-content: center;
+            align-items: center;
+            color: #2F2F2F;
+            flex-direction: column;
+            margin-bottom: 100px;
+            h1 {
+                letter-spacing: 10px;
+                font-size: 12em;
+            }
+            h2 {
+                font-size: 6em;
+                line-height: 2em;
+                border-radius: 7px;
+            }
+            h3 {
+                font-size: 3em;
+            }
+            span {
+                color: $color-orange !important;
+            }
+        }
+    }
     
-    .center-test {
-        justify-content: center;
-        align-items: center;
-        color: #2F2F2F;
-        flex-direction: column;
-        margin-bottom: 100px;
-        h1 {
-            letter-spacing: 10px;
-            font-size: 12em;
+    @media only screen and (max-width: 768px) {
+        .col-img-svg {
+            background-size: contain;
         }
-        h2 {
-            font-size: 6em;
-            line-height: 2em;
-            border-radius: 7px;
-        }
-        h3 {
-            font-size: 3em;
-        }
-        span {
-            color: $color-orange !important;
-        }
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .col-img-svg {
-        background-size: contain;
-    }
-    .center-test {
-        text-align: center;
-        h1 {
-            margin-top: -70px;
-            font-size: 2em !important;
-        }
-        h2 {
-            font-size: 1.7em !important;
-            width: 100%;
-            text-transform: uppercase;
-            line-height: 2em;
-            background-color: $blu-medio !important;
-            border-radius: 7px;
-        }
-        h3 {
-            font-size: 1.4em !important;
-            padding: 0 1em;
+        .center-test {
+            text-align: center;
+            h1 {
+                margin-top: -70px;
+                font-size: 2em !important;
+            }
+            h2 {
+                font-size: 1.7em !important;
+                width: 100%;
+                text-transform: uppercase;
+                line-height: 2em;
+                background-color: $blu-medio !important;
+                border-radius: 7px;
+            }
+            h3 {
+                font-size: 1.4em !important;
+                padding: 0 1em;
+            }
         }
     }
 }

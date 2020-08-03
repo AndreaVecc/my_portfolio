@@ -1,5 +1,5 @@
 .s4 {
-    background-color: #ffffff;
+    background-color: #f1f6fc;
     div {
         .left-section {
             display: flex;
@@ -11,12 +11,12 @@
                 flex-direction: column;
             }
             .img {
+                padding: 1em;
                 max-width: 100%;
                 max-height: 100%;
                 border-radius: 15px;
-                background: #F7F7F7;
-                box-shadow:  50px 50px 49px #d2d2d2, 
-                            -50px -50px 49px #ffffff;
+                background: #f1f6fc;
+                box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
                 transform: rotate(0deg);
 
                 img {
@@ -25,7 +25,6 @@
             }
             h1 {
                 font-size: 9em;
-                color: grey;
                 text-align: center;
                 color: #CF649A;
             }
@@ -53,9 +52,8 @@
                 .img {
                     max-width: 70%;
                     border-radius: 19px;
-                    background: #F7F7F7;
-                    box-shadow:  12px 12px 24px #b9b9b9, 
-                                -12px -12px 24px #ffffff;
+                    background: #f1f6fc;
+                    box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
                     transform: rotate(0deg) !important;
                 }
                 h1 {
