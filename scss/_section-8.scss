@@ -12,13 +12,15 @@
             min-width: 30%;
             border-radius: 15px;
             background: #f1f6fc;
-            box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+            box-shadow: $shadows;
 
-            form .back-email {
-                border-radius: 7px;
-                background: #f1f6fc;
-                box-shadow:  7px 7px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-                padding: .5em 1em;
+            form {
+                .back-email {
+                    border-radius: 7px;
+                    background: #f1f6fc;
+                    box-shadow:  -15px -15px 20px #FFFFFF, 7px 7px 15px #D2D2DC, 3px 3px 5px #D2D2Dc;
+                    padding: .5em 1em;
+                }
             }
             h1 {
                 padding-bottom: 1.5em;

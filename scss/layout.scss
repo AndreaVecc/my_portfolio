@@ -38,3 +38,13 @@ html, body {
 #fullpage {
     height: 100%;
 }
+
+#fp-nav ul li .fp-tooltip {
+    color: #212529;
+}
+
+@media only screen and (max-width: 768px) {
+    #fp-nav ul li .fp-tooltip {
+        display: none;
+    }
+}

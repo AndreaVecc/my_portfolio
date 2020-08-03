@@ -18,7 +18,7 @@
             max-width: 45%;
             border-radius: 20px;
             background: #F1F6FC;
-            box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+            box-shadow: $shadows;
             padding: 1em 2em;
             min-height: 35%;
             display: flex;
@@ -45,9 +45,9 @@
             line-height: 40px;
             border: none;
             border-radius: 40px;
-            color: #000000;
+            color: #212529;
             background: #F1F6FC;
-            box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+            box-shadow: $shadows;
         }
     }
 }
@@ -64,6 +64,9 @@
             }
             .work {
                 max-width: 100%;
+            }
+            input {
+                box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
             }
         }
     }

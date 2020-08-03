@@ -158,8 +158,8 @@ nav div div #lavori {
   max-height: 100%;
   border-radius: 15px;
   background: #f1f6fc;
-  -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
 }
 
 .s2 div .left-section .img img {
@@ -167,8 +167,8 @@ nav div div #lavori {
 }
 
 .s2 div .left-section h1 {
-  font-size: 9em;
-  color: grey;
+  font-size: 6vw;
+  color: #212529;
   text-align: center;
 }
 
@@ -189,9 +189,10 @@ nav div div #lavori {
 
 .s2 div .left-section ul li {
   font-size: 1.3em;
+  padding: 0 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
   .s2 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -210,8 +211,8 @@ nav div div #lavori {
   .s2 div .left-section .img {
     border-radius: 19px;
     background: #f1f6fc;
-    -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-            box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+    -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+            box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
     -webkit-transform: rotate(0deg) !important;
             transform: rotate(0deg) !important;
   }
@@ -223,6 +224,9 @@ nav div div #lavori {
   }
   .s2 div .left-section h1 #css {
     color: #2965F1;
+  }
+  .s2 div .left-section ul li {
+    font-size: 1rem;
   }
 }
 
@@ -261,8 +265,8 @@ nav div div #lavori {
   max-height: 100%;
   border-radius: 15px;
   background: #f1f6fc;
-  -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
 }
 
 .s3 div .left-section .img img {
@@ -270,7 +274,7 @@ nav div div #lavori {
 }
 
 .s3 div .left-section h1 {
-  font-size: 9em;
+  font-size: 6vw;
   color: grey;
   text-align: center;
   color: #7952B3;
@@ -285,9 +289,10 @@ nav div div #lavori {
 
 .s3 div .left-section ul li {
   font-size: 1.3em;
+  padding: 0 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
   .s3 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -306,13 +311,14 @@ nav div div #lavori {
   .s3 div .left-section .img {
     border-radius: 19px;
     background: #f1f6fc;
-    -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-            box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-    -webkit-transform: rotate(0deg) !important;
-            transform: rotate(0deg) !important;
+    -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+            box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
   }
   .s3 div .left-section h1 {
     font-size: 3.6em !important;
+  }
+  .s3 div .left-section ul li {
+    font-size: 1rem;
   }
 }
 
@@ -351,8 +357,8 @@ nav div div #lavori {
   max-height: 100%;
   border-radius: 15px;
   background: #f1f6fc;
-  -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
@@ -362,7 +368,7 @@ nav div div #lavori {
 }
 
 .s4 div .left-section h1 {
-  font-size: 9em;
+  font-size: 6vw;
   text-align: center;
   color: #CF649A;
 }
@@ -376,9 +382,10 @@ nav div div #lavori {
 
 .s4 div .left-section ul li {
   font-size: 1.3em;
+  padding: 0 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
   .s4 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -398,13 +405,16 @@ nav div div #lavori {
     max-width: 70%;
     border-radius: 19px;
     background: #f1f6fc;
-    -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-            box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+    -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+            box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
     -webkit-transform: rotate(0deg) !important;
             transform: rotate(0deg) !important;
   }
   .s4 div .left-section h1 {
     font-size: 3.6em !important;
+  }
+  .s4 div .left-section ul li {
+    font-size: 1rem;
   }
 }
 
@@ -470,8 +480,8 @@ nav div div #lavori {
   max-width: 45%;
   border-radius: 20px;
   background: #F1F6FC;
-  -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
   padding: 1em 2em;
   min-height: 35%;
   display: -webkit-box;
@@ -520,10 +530,10 @@ nav div div #lavori {
   line-height: 40px;
   border: none;
   border-radius: 40px;
-  color: #000000;
+  color: #212529;
   background: #F1F6FC;
-  -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
 }
 
 @media only screen and (max-width: 768px) {
@@ -541,6 +551,10 @@ nav div div #lavori {
   }
   .s6 .left-section .work {
     max-width: 100%;
+  }
+  .s6 .left-section input {
+    -webkit-box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+            box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
   }
 }
 
@@ -618,15 +632,15 @@ nav div div #lavori {
   min-width: 30%;
   border-radius: 15px;
   background: #f1f6fc;
-  -webkit-box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
 }
 
 .s8 .left-section .form form .back-email {
   border-radius: 7px;
   background: #f1f6fc;
-  -webkit-box-shadow: 7px 7px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
-          box-shadow: 7px 7px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+  -webkit-box-shadow: -15px -15px 20px #FFFFFF, 7px 7px 15px #D2D2DC, 3px 3px 5px #D2D2Dc;
+          box-shadow: -15px -15px 20px #FFFFFF, 7px 7px 15px #D2D2DC, 3px 3px 5px #D2D2Dc;
   padding: .5em 1em;
 }
 
@@ -813,5 +827,15 @@ html, body {
 
 #fullpage {
   height: 100%;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #212529;
+}
+
+@media only screen and (max-width: 768px) {
+  #fp-nav ul li .fp-tooltip {
+    display: none;
+  }
 }
 /*# sourceMappingURL=layout.css.map */

@@ -16,14 +16,14 @@
                 max-height: 100%;
                 border-radius: 15px;
                 background: #f1f6fc;
-                box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+                box-shadow: $shadows;
                 img {
                     max-width: 100%;
                 }
             }
             h1 {
-                font-size: 9em;
-                color: grey;
+                font-size: 6vw;
+                color: #212529;
                 text-align: center;
                 #html {
                     color: #EB5E28;
@@ -39,13 +39,14 @@
                 font-weight: 500;
                 li {
                     font-size: 1.3em;
+                    padding: 0 1em;
                 }
             }
         }
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
     .s2 {
         div {
             .left-section {
@@ -56,7 +57,7 @@
                 .img {
                     border-radius: 19px;
                     background: #f1f6fc;
-                    box-shadow:  20px 20px 15px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 5px #D2D2Dc;
+                    box-shadow: $shadows;
                     transform: rotate(0deg) !important;
                 }
                 h1 {
@@ -67,6 +68,9 @@
                     #css {
                         color: #2965F1;
                     }
+                }
+                ul li {
+                    font-size: 1rem;
                 }
             }
         }
