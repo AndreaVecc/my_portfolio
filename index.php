@@ -25,6 +25,7 @@
             <?php include "shared/lavori-home.php"; ?>
             <?php include "shared/lavori.php"; ?>
             <?php include "shared/contatti.php"; ?>
+            <?php include "shared/animation.php"; ?>
 
         </div>
     </main>

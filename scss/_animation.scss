@@ -1,0 +1,10 @@
+path {
+    #html {
+        animation: html 2s ease-in;
+    }
+}
+
+@keyframes html {
+    from {width: 500px;}
+    to {width: 100px;}
+}
