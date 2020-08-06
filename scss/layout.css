@@ -160,7 +160,7 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 768px) {
   .s2 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -261,7 +261,7 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 768px) {
   .s3 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -355,7 +355,7 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 768px) {
   .s4 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
