@@ -2,8 +2,8 @@
     <div class="row" id="three-section">
         <div class="col-md-12 left-section">
             <div class="text-left">
-                <h1>SASS</h1>
-                <ul>
+                <h1 data-aos="zoom-in-down">SASS</h1>
+                <ul data-aos="zoom-in-down">
                     <li>
                         - Con Sass ho saputo accorciare, <em>e non di poco</em>, il codice da scrivere, rendendolo piu' <br>
                         leggibile e semplice per me orientarmi, e grazie all'uso delle <strong>variabili</strong> ho saputo creare <br>
@@ -14,8 +14,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="img">
-                <img src="imagine/sass.svg" alt="">
+            <div class="img" data-aos="zoom-in-left" data-aos-duration="2000">
+                <img src="imagine/sass.svg" alt="" data-aos="zoom-in-left">
             </div>
         </div>
     </div>

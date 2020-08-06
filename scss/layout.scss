@@ -8,7 +8,6 @@
 @import '_section-6';
 @import '_section-7';
 @import '_section-8';
-@import '_animation';
 
 * {
     margin: 0;
@@ -44,7 +43,7 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
-    #fp-nav ul li .fp-tooltip {
+    #fp-nav {
         display: none;
     }
 }

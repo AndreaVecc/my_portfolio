@@ -2,12 +2,12 @@
     <div class="row" id="two-section">
         <div class="col-md-12 left-section">
             <div class="text-left">
-                <h1>
+                <h1 data-aos="zoom-out-up">
                     <span id="html">HTML</span>
                     &
                     <span id="css">CSS</span>
                 </h1>
-                <ul>
+                <ul data-aos="zoom-out">
                     <li>
                         - Div, form, section, ul, main e tutto cio' che serve per sviluppare un sito
                         <strong>Ben Strutturato!</strong>
@@ -26,8 +26,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="img">
-                <img src="imagine/html_css.svg" alt=""></div>
+            <div class="img" data-aos="zoom-in-left">
+                <img src="imagine/html_css.svg" alt="" data-aos="zoom-in-left"></div>
             </div>
         </div>
     </section>

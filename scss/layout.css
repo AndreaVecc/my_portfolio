@@ -79,48 +79,25 @@ nav div div #lavori {
   margin-bottom: 100px;
 }
 
-.s1 #first-section .center-test h1 {
-  letter-spacing: 10px;
-  font-size: 12em;
+.s1 #first-section .center-test img {
+  max-width: 100%;
 }
 
 .s1 #first-section .center-test h2 {
-  font-size: 6em;
-  line-height: 2em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.s1 #first-section .center-test input {
+  -webkit-box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+  background-color: #f1f6fc;
+  border: none;
+  padding: 1em;
+  color: #2F2F2F;
+  font-weight: 600;
   border-radius: 7px;
-}
-
-.s1 #first-section .center-test h3 {
-  font-size: 3em;
-}
-
-.s1 #first-section .center-test span {
-  color: #EB5E28 !important;
-}
-
-@media only screen and (max-width: 768px) {
-  .s1 .col-img-svg {
-    background-size: contain;
-  }
-  .s1 .center-test {
-    text-align: center;
-  }
-  .s1 .center-test h1 {
-    margin-top: -70px;
-    font-size: 2em !important;
-  }
-  .s1 .center-test h2 {
-    font-size: 1.7em !important;
-    width: 100%;
-    text-transform: uppercase;
-    line-height: 2em;
-    background-color: #2d6cdf !important;
-    border-radius: 7px;
-  }
-  .s1 .center-test h3 {
-    font-size: 1.4em !important;
-    padding: 0 1em;
-  }
 }
 
 .s2 {
@@ -421,6 +398,7 @@ nav div div #lavori {
 .s5 {
   background-color: #f1f6fc;
   text-align: center;
+  height: 100vh;
 }
 
 .s5 .row .left-section {
@@ -438,6 +416,16 @@ nav div div #lavori {
 
 .s5 .row .left-section h1 {
   font-size: 10em;
+}
+
+.s5 .row .left-section img {
+  padding: 1em;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  background: #f1f6fc;
+  -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
+          box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
 }
 
 @media only screen and (max-width: 768px) {
@@ -529,9 +517,10 @@ nav div div #lavori {
   padding: 0 1em;
   line-height: 40px;
   border: none;
-  border-radius: 40px;
+  border-radius: 7px;
   color: #212529;
   background: #F1F6FC;
+  font-weight: 600;
   -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
           box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
 }
@@ -684,29 +673,6 @@ nav div div #lavori {
   }
 }
 
-path #html {
-  -webkit-animation: html 2s ease-in;
-          animation: html 2s ease-in;
-}
-
-@-webkit-keyframes html {
-  from {
-    width: 500px;
-  }
-  to {
-    width: 100px;
-  }
-}
-
-@keyframes html {
-  from {
-    width: 500px;
-  }
-  to {
-    width: 100px;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -743,7 +709,7 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
-  #fp-nav ul li .fp-tooltip {
+  #fp-nav {
     display: none;
   }
 }

@@ -19,10 +19,15 @@
 
     <!-- HERO -->
     <div class="row" id="first-section">
-        <div class="col-md d-flex center-test">
-            <h1>Benvenuto!</h1>
-            <h2>Vuoi scoprire le mie abilita'?</h2>
-            <h3>Scorri qui sotto!</h3>
+        <div class="col-md-7 d-flex center-test" data-aos="fade-up">
+            <h1 data-aos="flip-down">Benvenuto!</h1>
+            <h2 data-aos="flip-down">In questo sito conoscerai me, cosa so fare, <br>
+                <strong>cosa faro'!</strong>
+            </h2 data-aos="flip-down">
+            <input type="button" value="Comincia Subito!">
+        </div>
+        <div class="col-md-5 d-flex center-test">
+            <img src="imagine/SVG/about-me.svg" alt="" data-aos="fade-down">
         </div>
     </div>
 </section>
