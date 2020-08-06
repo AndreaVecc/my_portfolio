@@ -175,7 +175,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    padding: 1em 0;
+    padding: 1em 1em;
   }
   .s2 div .left-section .img {
     border-radius: 19px;
@@ -196,6 +196,7 @@ nav div div #lavori {
   }
   .s2 div .left-section ul li {
     font-size: 1rem;
+    padding: 0;
   }
 }
 
@@ -276,7 +277,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    padding: 1em 0;
+    padding: 1em 1em;
   }
   .s3 div .left-section .img {
     border-radius: 19px;
@@ -289,6 +290,7 @@ nav div div #lavori {
   }
   .s3 div .left-section ul li {
     font-size: 1rem;
+    padding: 0;
   }
 }
 
@@ -370,7 +372,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    padding: 1em 0;
+    padding: 1em 1em;
   }
   .s4 div .left-section .img {
     max-width: 70%;
@@ -386,6 +388,7 @@ nav div div #lavori {
   }
   .s4 div .left-section ul li {
     font-size: 1rem;
+    padding: 0;
   }
 }
 
@@ -736,6 +739,10 @@ html, body {
 
 #fp-nav ul li .fp-tooltip {
   color: #212529;
+}
+
+.fp-section {
+  height: auto !important;
 }
 
 @media only screen and (max-width: 768px) {

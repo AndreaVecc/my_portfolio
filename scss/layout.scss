@@ -42,6 +42,10 @@ html, body {
     color: #212529;
 }
 
+.fp-section{
+    height: auto !important;
+}
+
 @media only screen and (max-width: 768px) {
     #fp-nav {
         display: none;
