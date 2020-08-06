@@ -160,7 +160,7 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .s2 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -175,7 +175,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    padding: 1em 1em;
+    padding: 1em 0;
   }
   .s2 div .left-section .img {
     border-radius: 19px;
@@ -186,7 +186,7 @@ nav div div #lavori {
             transform: rotate(0deg) !important;
   }
   .s2 div .left-section h1 {
-    font-size: 3.6em !important;
+    font-size: 15vw !important;
   }
   .s2 div .left-section h1 #html {
     color: #EB5E28;
@@ -196,7 +196,6 @@ nav div div #lavori {
   }
   .s2 div .left-section ul li {
     font-size: 1rem;
-    padding: 0;
   }
 }
 
@@ -262,7 +261,7 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 10241px) {
   .s3 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -277,7 +276,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    padding: 1em 1em;
+    padding: 1em 0;
   }
   .s3 div .left-section .img {
     border-radius: 19px;
@@ -286,11 +285,10 @@ nav div div #lavori {
             box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
   }
   .s3 div .left-section h1 {
-    font-size: 3.6em !important;
+    font-size: 15vw !important;
   }
   .s3 div .left-section ul li {
     font-size: 1rem;
-    padding: 0;
   }
 }
 
@@ -357,7 +355,10 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+  .s4 {
+    padding: 1em 0;
+  }
   .s4 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -372,7 +373,6 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
-    padding: 1em 1em;
   }
   .s4 div .left-section .img {
     max-width: 70%;
@@ -384,11 +384,10 @@ nav div div #lavori {
             transform: rotate(0deg) !important;
   }
   .s4 div .left-section h1 {
-    font-size: 3.6em !important;
+    font-size: 15vw !important;
   }
   .s4 div .left-section ul li {
     font-size: 1rem;
-    padding: 0;
   }
 }
 

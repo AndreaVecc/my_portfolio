@@ -42,15 +42,16 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .s4 {
+        padding: 1em 0;
         div {
             .left-section {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column !important;
-                padding: 1em 1em;
+                // padding: 1em 0;
                 .img {
                     max-width: 70%;
                     border-radius: 19px;
@@ -59,11 +60,10 @@
                     transform: rotate(0deg) !important;
                 }
                 h1 {
-                    font-size: 3.6em !important;
+                    font-size: 15vw !important;
                 }
                 ul li {
                     font-size: 1rem;
-                    padding: 0;
                 }
             }
         }

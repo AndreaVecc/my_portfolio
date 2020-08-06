@@ -46,7 +46,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .s2 {
         div {
             .left-section {
@@ -54,7 +54,7 @@
                 justify-content: center;
                 align-items: center;
                 flex-direction: column !important;
-                padding: 1em 1em;
+                padding: 1em 0;
                 .img {
                     border-radius: 19px;
                     background: #f1f6fc;
@@ -62,7 +62,7 @@
                     transform: rotate(0deg) !important;
                 }
                 h1 {
-                    font-size: 3.6em !important;
+                    font-size: 15vw !important;
                     #html {
                         color: #EB5E28;
                     }
@@ -72,7 +72,6 @@
                 }
                 ul li {
                     font-size: 1rem;
-                    padding: 0;
                 }
             }
         }
