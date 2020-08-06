@@ -37,7 +37,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js" integrity="sha512-Gx/C4x1qubng2MWpJIxTPuWch9O88dhFFfpIl3WlqH0jPHtCiNdYsmJBFX0q5gIzFHmwkPzzYTlZC/Q7zgbwCw==" crossorigin="anonymous"></script>
     <script src="js/scroll.js"></script>
     <script src="js/jquery.drawsvg.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/aos.js"></script>
     <script>
         AOS.init({

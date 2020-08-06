@@ -76,7 +76,6 @@ nav div div #lavori {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 100px;
 }
 
 .s1 #first-section .center-test img {
@@ -85,19 +84,25 @@ nav div div #lavori {
 
 .s1 #first-section .center-test h2 {
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-.s1 #first-section .center-test input {
-  -webkit-box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
-          box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
-  background-color: #f1f6fc;
-  border: none;
-  padding: 1em;
-  color: #2F2F2F;
-  font-weight: 600;
-  border-radius: 7px;
+.s1 #first-section .center-test h1 {
+  font-size: 4em;
+}
+
+.s1 #first-section .center-test h4 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .s1 #first-section .center-test h2 {
+    font-size: 1em;
+  }
+  .s1 #first-section .center-test img {
+    margin-top: -40px;
+  }
 }
 
 .s2 {
@@ -589,11 +594,17 @@ nav div div #lavori {
 .s7 .right-section h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-bottom: .6em;
 }
 
 .s7 .right-section span {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .s7 .right-section .text {
+    height: 300px;
+    overflow: scroll;
+  }
 }
 
 .s8 {

@@ -20,10 +20,20 @@
         h1 {
             font-size: 4rem;
             font-weight: 700;
-            margin-bottom: .6em;
         }
         span {
             font-weight: 600;
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .s7 {
+        .right-section {
+            .text {
+                height: 300px;
+                overflow: scroll;
+            }
+        }
+    }
+} 

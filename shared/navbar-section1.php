@@ -24,7 +24,7 @@
             <h2 data-aos="flip-down">In questo sito conoscerai me, cosa so fare, <br>
                 <strong>cosa faro'!</strong>
             </h2 data-aos="flip-down">
-            <input type="button" value="Comincia Subito!">
+            <h4>Comincia subito scrollando qui sotto!</h4>
         </div>
         <div class="col-md-5 d-flex center-test">
             <img src="imagine/SVG/about-me.svg" alt="" data-aos="fade-down">

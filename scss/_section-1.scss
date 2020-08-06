@@ -6,28 +6,35 @@
             align-items: center;
             color: #2F2F2F;
             flex-direction: column;
-            margin-bottom: 100px;
             img {
                 max-width: 100%;
             }
             h2 {
                 text-align: center;
-                margin-top: 1em;
-                margin-bottom: 1em;
+                margin-top: 2em;
+                margin-bottom: 2em;
             }
-            input {
-                box-shadow: 8px 8px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
-                background-color: #f1f6fc;
-                border: none;
-                padding: 1em;
-                color: #2F2F2F;
-                font-weight: 600;
-                border-radius: 7px;
+            h1 {
+                font-size: 4em;
+            } 
+            h4 {
+                text-align: center;
             }
         }
     }
-    
-    @media only screen and (max-width: 768px) {
+}
 
+@media only screen and (max-width: 768px) {
+    .s1 {
+        #first-section {
+            .center-test {
+                h2 {
+                    font-size: 1em;
+                }
+                img {
+                    margin-top: -40px;
+                }
+            }
+        }
     }
 }
