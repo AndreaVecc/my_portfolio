@@ -261,7 +261,7 @@ nav div div #lavori {
   padding: 0 1em;
 }
 
-@media only screen and (max-width: 10241px) {
+@media only screen and (max-width: 1024px) {
   .s3 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -356,9 +356,6 @@ nav div div #lavori {
 }
 
 @media only screen and (max-width: 1024px) {
-  .s4 {
-    padding: 1em 0;
-  }
   .s4 div .left-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -373,6 +370,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    padding: 1em 0;
   }
   .s4 div .left-section .img {
     max-width: 70%;
