@@ -41,22 +41,8 @@ nav div div #lavori {
 }
 
 @media only screen and (max-width: 768px) {
-  nav {
-    padding: 0 1em !important;
-    margin-top: 78px;
-  }
-  nav .navbar-brand {
-    font-size: 1.5em;
-    letter-spacing: 1.5px;
-  }
-  nav div > div {
-    margin-top: 1em;
-  }
-  nav div > div a {
-    text-align: center;
-    font-size: 1.3em;
-    padding: 0.7rem;
-    font-weight: 500;
+  .navbar {
+    display: none;
   }
 }
 
@@ -611,6 +597,9 @@ nav div div #lavori {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .s7 .center #paragraph {
+    height: 100%;
+  }
   .s7 .center #paragraph h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -620,12 +609,10 @@ nav div div #lavori {
     margin-bottom: 0;
   }
   .s7 .center #paragraph .text {
-    height: 200px;
-    overflow: scroll;
+    height: 100%;
   }
   .s7 .center #img-chisono img {
-    min-width: 100%;
-    margin-bottom: 10px;
+    display: none;
   }
 }
 
