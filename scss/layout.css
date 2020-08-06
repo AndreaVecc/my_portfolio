@@ -189,6 +189,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    padding: 1em 0;
   }
   .s2 div .left-section .img {
     border-radius: 19px;
@@ -289,6 +290,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    padding: 1em 0;
   }
   .s3 div .left-section .img {
     border-radius: 19px;
@@ -382,6 +384,7 @@ nav div div #lavori {
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
+    padding: 1em 0;
   }
   .s4 div .left-section .img {
     max-width: 70%;
