@@ -13,20 +13,18 @@
         span {
             font-weight: 600;
         }
-    }
-    #img-chisono {
-        img {
-            width: 90%;
-            box-shadow: $shadows;
-            background: #f1f6fc;
+        #img-chisono {
+            img {
+                width: 90%;
+                box-shadow: $shadows;
+                background: #f1f6fc;
+            }
         }
-    }
-    .right-section {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-        
+        #paragraph {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
     }
 }
 

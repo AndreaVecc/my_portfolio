@@ -581,20 +581,17 @@ nav div div #lavori {
   font-weight: 600;
 }
 
-.s7 #img-chisono img {
+.s7 .center #img-chisono img {
   width: 90%;
   -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
           box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
   background: #f1f6fc;
 }
 
-.s7 .right-section {
+.s7 .center #paragraph {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
