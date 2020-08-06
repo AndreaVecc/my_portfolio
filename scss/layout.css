@@ -42,7 +42,7 @@ nav div div #lavori {
 
 @media only screen and (max-width: 768px) {
   nav {
-    padding: 1em 1em !important;
+    padding: 0 1em !important;
     margin-top: 78px;
   }
   nav .navbar-brand {
@@ -557,21 +557,31 @@ nav div div #lavori {
 
 .s7 {
   background: #f1f6fc;
+  height: 100vh;
 }
 
 .s7 .center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 1em 1em;
 }
 
-.s7 .left-section img {
+.s7 .center h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.s7 .center span {
+  font-weight: 600;
+}
+
+.s7 #img-chisono img {
   width: 90%;
   -webkit-box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
           box-shadow: 20px 20px 12px #D2D2DC, -15px -15px 20px #FFFFFF, 3px 3px 4px #D2D2Dc;
@@ -594,19 +604,31 @@ nav div div #lavori {
           flex-direction: column;
 }
 
-.s7 .right-section h1 {
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-.s7 .right-section span {
-  font-weight: 600;
-}
-
 @media only screen and (max-width: 768px) {
-  .s7 .right-section .text {
-    height: 300px;
+  .s7 .center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s7 .center #paragraph h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .s7 .center #paragraph h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .s7 .center #paragraph .text {
+    height: 200px;
     overflow: scroll;
+  }
+  .s7 .center #img-chisono img {
+    min-width: 100%;
+    margin-bottom: 10px;
   }
 }
 

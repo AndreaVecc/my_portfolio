@@ -1,11 +1,20 @@
 .s7 {
     background: #f1f6fc;
+    height: 100vh;
     .center {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        padding: 1em 1em;
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        span {
+            font-weight: 600;
+        }
     }
-    .left-section {
+    #img-chisono {
         img {
             width: 90%;
             box-shadow: $shadows;
@@ -17,22 +26,34 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        h1 {
-            font-size: 4rem;
-            font-weight: 700;
-        }
-        span {
-            font-weight: 600;
-        }
+        
     }
 }
 
 @media only screen and (max-width: 768px) {
     .s7 {
-        .right-section {
-            .text {
-                height: 300px;
-                overflow: scroll;
+        .center {
+            display: flex;
+            flex-direction: column;
+            #paragraph {
+                h1 {
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                h2 {
+                    font-size: 1.5rem;
+                    margin-bottom: 0;
+                }
+                .text {
+                    height: 200px;
+                    overflow: scroll;
+                }
+            }
+            #img-chisono {
+                img {
+                    min-width: 100%;
+                    margin-bottom: 10px;
+                }
             }
         }
     }
